@@ -1,0 +1,85 @@
+.column {
+    padding: 0;
+    margin: 0;
+    height: 130px;
+    width: 26px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+.gamecontainer {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+.grid {
+    display: inline-block;
+}
+
+.grid .button {
+    width: 30px;
+}
+
+.win {
+    display: none;
+}
+
+.gamestats {
+    height: 160px;
+    width: 100px;
+    display: inline-block;
+}
+
+
+.gamestats > div {
+    margin: auto;
+    width: 52px;
+    height: 52px;
+}
+
+.gamestats .playercoin {
+    height:40px;
+    width: 40px;
+    margin: auto;
+}
+
+.button p {
+    color: white;
+    font-family: Verdana;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+.player1 {
+    background-color: blue;
+}
+
+.player2 {
+    background-color: red;
+}
+
+.playercoin {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.gamecontainer .playercoin {
+    position: absolute;
+}
+
+.button {
+    height: 30px;
+    border-radius: 2px;
+    background-color: grey;
+    margin: 0;
+    display: inline-block;
+}
+.buttonhover {
+    background-color: lightgrey;
+}
