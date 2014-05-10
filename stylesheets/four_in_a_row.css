@@ -1,85 +1,47 @@
-.column {
-    padding: 0;
-    margin: 0;
-    height: 130px;
-    width: 26px;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
-    border-color: black;
+.box_shadow_highlight {
+    box-shadow : 2px 2px 3px #888888;
 }
 
-.gamecontainer {
+.bucket {
+    padding-left: 13px;
+    height: 160px;
+    width: 50px;
+}
+
+.game_board {
     text-align: center;
-    margin: auto;
-    padding: 10px;
-    display: inline-block;
 }
 
-.grid {
-    display: inline-block;
+.stats {
+    margin: 1px 0 1px 0;
 }
 
-.grid .button {
-    width: 30px;
-}
-
-.win {
+.game-end {
     display: none;
 }
 
-.gamestats {
-    height: 160px;
-    width: 100px;
-    display: inline-block;
-}
-
-
-.gamestats > div {
-    margin: auto;
-    width: 52px;
-    height: 52px;
-}
-
-.gamestats .playercoin {
+.game_board_info .coin {
     height:40px;
     width: 40px;
-    margin: auto;
+    border-width: 2px;
 }
 
-.button p {
-    color: white;
-    font-family: Verdana;
-    margin: 5px 0 0 0;
-    text-align: center;
+.first_player {
+    background-color: #00B4CC;
+    border: 2px solid #005F6B;
 }
 
-.player1 {
-    background-color: blue;
+.second_player {
+    background-color: #F03C02;
+    border: 2px solid #A30006;
 }
 
-.player2 {
-    background-color: red;
-}
-
-.playercoin {
+.coin {
     height: 20px;
     width: 20px;
-    border-radius: 10px;
-    margin: auto;
+    border-radius: 100%;
 }
 
-.gamecontainer .playercoin {
+.game_board .coin {
     position: absolute;
-}
-
-.button {
-    height: 30px;
-    border-radius: 2px;
-    background-color: grey;
-    margin: 0;
-    display: inline-block;
-}
-.buttonhover {
-    background-color: lightgrey;
 }
